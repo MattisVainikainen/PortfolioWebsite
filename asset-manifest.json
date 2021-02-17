@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/PortfolioWebsite/static/css/main.21f1d4d6.chunk.css",
+    "main.css": "/PortfolioWebsite/static/css/main.67580445.chunk.css",
     "main.js": "/PortfolioWebsite/static/js/main.381d9ce1.chunk.js",
     "main.js.map": "/PortfolioWebsite/static/js/main.381d9ce1.chunk.js.map",
     "runtime-main.js": "/PortfolioWebsite/static/js/runtime-main.8492eb34.js",
@@ -10,7 +10,7 @@
     "static/js/3.db006313.chunk.js": "/PortfolioWebsite/static/js/3.db006313.chunk.js",
     "static/js/3.db006313.chunk.js.map": "/PortfolioWebsite/static/js/3.db006313.chunk.js.map",
     "index.html": "/PortfolioWebsite/index.html",
-    "static/css/main.21f1d4d6.chunk.css.map": "/PortfolioWebsite/static/css/main.21f1d4d6.chunk.css.map",
+    "static/css/main.67580445.chunk.css.map": "/PortfolioWebsite/static/css/main.67580445.chunk.css.map",
     "static/js/2.bbed4a01.chunk.js.LICENSE.txt": "/PortfolioWebsite/static/js/2.bbed4a01.chunk.js.LICENSE.txt",
     "static/media/GitHub.9f8a0ded.png": "/PortfolioWebsite/static/media/GitHub.9f8a0ded.png",
     "static/media/Instagram.e7c2521a.png": "/PortfolioWebsite/static/media/Instagram.e7c2521a.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.8492eb34.js",
     "static/js/2.bbed4a01.chunk.js",
-    "static/css/main.21f1d4d6.chunk.css",
+    "static/css/main.67580445.chunk.css",
     "static/js/main.381d9ce1.chunk.js"
   ]
 }

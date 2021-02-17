@@ -19,7 +19,7 @@ const Projects = [
     title: "Project at Plejd (LIA)",
     desc:
       "Web application made with C#, Blazor, MongoDB. Application show visual results from tests in graf fetched from database. Easy to find where tests failed etc.",
-    Image: process.env.PUBLIC_URL + "/Images/BetaMvp.png",
+    Image: process.env.PUBLIC_URL + "/Images/BetaMVP.png",
   },
 ];
 

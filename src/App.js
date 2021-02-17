@@ -5,7 +5,7 @@ import Portfolio from "./Components/Portfolio/Portfolio";
 import Contact from "./Components/Contact/Contact";
 import Navigation from "./Components/Navigation/Navigation";
 import Footer from "./Components/Footer/Footer";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 
 import "./App.css";
 

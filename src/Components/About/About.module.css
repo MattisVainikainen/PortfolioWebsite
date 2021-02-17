@@ -1,0 +1,86 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about {
+  min-height: 30%;
+  padding: 10px;
+  width: 90%;
+  overflow: scroll;
+  /* background-color: rgb(69, 107, 138); */
+  background-color: rgba(49, 25, 25, 0.212);
+  border: 1px solid black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  animation-name: AboutAnim;
+  animation-duration: 1s;
+}
+
+p {
+  font-size: 1.2em;
+  margin: 0;
+  padding: 5px 0px;
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+}
+
+.about b {
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 2px #000000;
+}
+
+@keyframes AboutAnim {
+  from {
+    opacity: 0;
+    margin-top: 400px;
+  }
+  to {
+    opacity: 1;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .box {
+    overflow-y: auto;
+  }
+  .about {
+    overflow-y: auto;
+  }
+  .about b {
+    font-size: 1.5em;
+    text-shadow: 1px 2px #000000;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .about {
+    width: 40%;
+    font-size: 1.3em;
+    overflow: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    animation-name: AboutAnim;
+    animation-duration: 2s;
+  }
+
+  @keyframes AboutAnim {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .about b {
+    color: rgb(0, 0, 0);
+    font-size: 0.9em;
+    text-shadow: 0px 0px #000000;
+  }
+}

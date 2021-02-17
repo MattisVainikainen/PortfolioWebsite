@@ -1,6 +1,5 @@
 .container {
-  overflow-x: hidden;
-  position: sticky;
+  position: fixed;
   bottom: 0;
   height: 10vh;
   width: 100%;

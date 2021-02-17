@@ -1,6 +1,9 @@
 import React from "react";
 import BackGroundImage from "../BackGroundImage/BackGroundImage";
 import style from "./Contact.module.css";
+import instagram from "./Instagram.png";
+import github from "./GitHub.png";
+import linkedin from "./Linkedin.png";
 
 const Contact = () => {
   return (
@@ -15,17 +18,17 @@ const Contact = () => {
       <div className={style.SocialMedia}>
         <div className={style.instagram}>
           <a href="http://www.instagram.com/mattisvainikainen">
-            <img src="./Images/Instagram.png" alt="instagram" />
+            <img src={instagram} alt="instagram" />
           </a>
         </div>
         <div className={style.github}>
           <a href="https://github.com/MattisVainikainen">
-            <img src="./Images/GitHub.png" alt="github" />
+            <img src={github} alt="Github" />
           </a>
         </div>
         <div className={style.linkedin}>
           <a href="https://se.linkedin.com/in/mattisv">
-            <img src="./Images/Linkedin.png" alt="linkedin" />
+            <img src={linkedin} alt="Linkedin" />
           </a>
         </div>
       </div>

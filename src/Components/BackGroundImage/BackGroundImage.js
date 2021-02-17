@@ -1,11 +1,12 @@
 import React from "react";
 import style from "./BackGroundImage.module.css";
+import logo from "./Mattis_Transparent.png";
 
 const BackGroundImage = () => {
   return (
     <div className={style.container}>
       <div className={style.imageBox}>
-        <img src="./Images/Mattis_Transparent.png" alt="mattis" />
+        <img src={logo} alt="mattis" />
       </div>
     </div>
   );

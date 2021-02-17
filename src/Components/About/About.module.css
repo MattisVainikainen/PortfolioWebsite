@@ -58,6 +58,7 @@ p {
 
 @media screen and (min-width: 800px) {
   .about {
+    margin-bottom: 200px;
     width: 40%;
     font-size: 1.3em;
     overflow: auto;

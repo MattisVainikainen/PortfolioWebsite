@@ -12,7 +12,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Router basename={"/PortfolioWebsite"}>
+      <Router basename={process.env.PUBLIC_URL}>
         <Navigation />
         <Switch>
           <Route path="/" exact component={Start} />

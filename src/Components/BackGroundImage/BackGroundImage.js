@@ -5,7 +5,7 @@ const BackGroundImage = () => {
   return (
     <div className={style.container}>
       <div className={style.imageBox}>
-        <img src=".././Images/Mattis_Transparent.png" alt="mattis" />
+        <img src="./Images/Mattis_Transparent.png" alt="mattis" />
       </div>
     </div>
   );

@@ -12,7 +12,6 @@ const Contact = () => {
       <div className={style.contactInfo}>
         <b>
           Email: Mattis.Vainikainen@gmail.com <br />
-          PhoneNumber: 0706617207
         </b>
       </div>
       <div className={style.SocialMedia}>
